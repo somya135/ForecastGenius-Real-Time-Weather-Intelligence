@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <!-- Required meta tags -->
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <!-- Bootstrap CSS -->
+  <!-- CSS only -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  </style>
+  <title>WeatherPoint</title>
+</head>
+
+<body>
+  <nav class="navbar navbar-light bg-light">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">
+        <img src="./images/weather-app-icon.jpg" alt="" width="35" height="35" class="d-inline-block logo">
+        <h3 style="display: inline; color: #0980b3;">Weather-Point</h3>
+      </a>
+      <div class="date-time" style="color: #0980b3;">
+        <span class="day">TUE </span> |
+        <span class="date"> MAR 08 </span> |
+        <span class="time">23:34</span>
+      </div>
+    </div>
+  </nav>
+
+
+
+  <div class="card-container">
+    <div class="card card1">
+      <img src="./images/location.jpg" class="card-img-top" alt="..." style="height: 11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Your Location</h5>
+        <p class="card-text">Get the Weather Report of your current location instantly and accurately, Just by one
+          click.</p>
+        <div>
+          <button class="btn btn1 btn-primary"><strong>Click here</strong></button>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card card2">
+      <img src="images/Screenshot (214).png" class="card-img-top" alt="..." style="height: 11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Preferred City</h5>
+        <p class="card-text">Check the Weather condition of any region with the help of the city name. </p>
+        <button class="btn btn2 btn-primary"><strong>Click here</strong></button>
+      </div>
+    </div>
+
+
+
+    <div class="card card3">
+      <img src="images/forecast.jpg" class="card-img-top" alt="..." style="height: 11rem;">
+      <div class="card-body">
+        <h5 class="card-title">Weather Forecast</h5>
+        <p class="card-text">Plan your day from what it's gonna look like. Get hourly weather information.</p>
+        <a href="https://weather.com/weather/today/l/cf7a2c7494189a64dfab3e18f5fbf920c6594a022a5bbd7b1ceb6cf85e2a76d8"
+          class="btn btn3 btn-primary"><strong>Click here</strong></a>
+      </div>
+    </div>
+
+  </div>
+
+
+
+  <div class="container-fluid container1 dis">
+    <i class="fa-solid fa-xmark xmark1"></i>
+    </i>
+    <div class="container container2">
+
+
+
+
+
+      <div class="container container3">
+        <img class="image" id="im1" src="https://cdn.weatherapi.com/weather/64x64/day/122.png" alt="image">
+        <div class="description" id="description1"
+          style="color: grey; font-size: medium; font-weight: bolder; margin-top: 0;">Mist</div>
+
+        <div class="region">
+          <div class="temp" style="font-size: 1.7rem;">18 &deg C </div>
+
+
+          <div class="city" style="font-size:1.7rem"> Bangalore </div>
+          <span class="state"> Karnataka </span>,
+          <span class="country"> India </span>
+        </div>
+
+        <div class="temperature">
+          <div class="feels_like" style="margin-top: 6px;">Feels like :&nbsp;
+            <span class="degree">22 &deg C</span>
+            <div>
+              Local-time :&nbsp; <span class="local-time">xxc</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+
+
+
+
+  <div class="container-fluid container4 dis">
+    <i class="fa-solid fa-xmark xmark2"></i>
+    <input class="inp" type="text" placeholder="Enter The City Name" class="input">
+    <div class="container container5 dis">
+      <div class="container container6">
+        <img class="image" id="im2" src="https://cdn.weatherapi.com/weather/64x64/day/122.png" alt="image">
+        <div class="description" style="color: grey; font-size: medium; font-weight: bolder; margin-top: 0;">Mist</div>
+
+
+
+        <div class="region">
+          <div class="temp" style="font-size: 1.7rem;">18 &deg C </div>
+
+
+          <div class="city" style="font-size:1.7rem"> Bangalore </div>
+          <span class="state"> Karnataka </span>,
+          <span class="country"> India </span>
+        </div>
+
+        <div class="temperature">
+          <div class="feels_like" style="margin-top: 6px;">Feels like :&nbsp;
+            <span class="degree">22 &deg C</span>
+            <div>
+              Local-time :&nbsp; <span class="local-time">xxc</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+  </div>
+
+  <div class="fixed-bottom footer">
+    <a href="https://www.instagram.com/somya__135/?next=%2F" class="links"> <i
+        class="fa-brands fa-instagram-square icons">
+      </i> </a>
+    <a href="https://www.linkedin.com/in/somya-gupta-8965991bb/" class="links"><i
+        class="fa-brands fa-linkedin icons"></i></a>
+    <a href="mailto:somya1305gupta@gmail.com" class="links"> <i class="fa-solid fa-square-envelope icons"></i></a>
+  </div>
+
+  <script src="script.js"></script>
+  <script src="https://kit.fontawesome.com/1fdb240e89.js" crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+    crossorigin="anonymous"></script>
+
+
+
+</body>
+<script src="https://kit.fontawesome.com/1fdb240e89.js" crossorigin="anonymous"></script>
+
+</html>
+
+</html>

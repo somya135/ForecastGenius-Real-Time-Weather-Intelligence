@@ -1,0 +1,181 @@
+body {
+    background-image: url('images/simon-berger-FFLGD4o149E-unsplash.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.navbar {
+    margin: 0;
+    padding: 0;
+}
+
+.container-fluid {
+    width: 100vw;
+    background-color: white;
+    border: 2px solid rgb(76, 154, 187);
+}
+
+.card {
+    width: 18rem;
+    height: 24rem;
+    display: inline-block;
+    margin: 20px;
+    text-align: left;
+}
+
+.card-container {
+    text-align: center;
+    margin-top: 55px;
+}
+
+
+.date-time {
+    font-size: larger;
+    font-weight: bolder;
+    margin-right: 15px;
+}
+
+.footer {
+    height: 40px;
+    background-color: white;
+    border: 2px solid rgb(76, 154, 187);
+    text-align: center;
+}
+
+.icons {
+    color: #0980b3;
+    padding: 5px 15px;
+    font-size: 25px;
+}
+
+.icons:hover {
+    color: rgb(76, 154, 187);
+}
+
+.links {
+    text-decoration: none;
+}
+
+.author {
+    color: #0980b3;
+    font-size: larger;
+    font-weight: bolder;
+    font: 19px system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+.container1 {
+    position: absolute;
+    width: 60vw;
+    height: 80%;
+    top: 10%;
+    left: 20%;
+    /* background-color: rgba(34, 34, 35, 0.955); */
+    background-image: url("images/shubham-rawat-Ee0RQ_oC3BI-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    z-index: 5;
+}
+
+.container4 {
+    position: absolute;
+    width: 60vw;
+    height: 80%;
+    top: 10%;
+    left: 20%;
+    background-image: url("images/new-york-night-cityscape.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 10px;
+    z-index: 5;
+    text-align: center;
+}
+
+.container2 {
+    position: absolute;
+    width: 70%;
+    height: 80%;
+    top: 10%;
+    left: 15%;
+    background-color: rgba(41, 41, 41, 0.847);
+    border-radius: 10px;
+    z-index: 0;
+    text-align: center;
+    display: table;
+
+}
+
+.container5 {
+    position: absolute;
+    width: 70%;
+    height: 80%;
+    top: 15%;
+    left: 15%;
+    background-color: rgba(30, 29, 29, 0.847);
+    border-radius: 10px;
+    z-index: 0;
+    text-align: center;
+    display: table;
+}
+
+.xmark1,
+.xmark2 {
+    position: absolute;
+    top: 3%;
+    right: 2%;
+    color: rgb(255, 255, 255);
+    font-size: larger;
+}
+
+.xmark1:hover,
+.xmark2:hover {
+    color: red;
+}
+
+
+
+.container3,
+.container6 {
+    display: table-cell;
+    vertical-align: middle;
+    color: rgb(254, 253, 253);
+
+
+}
+
+.description {
+    margin-bottom: 4%;
+}
+
+.region {
+    margin: 2%;
+    padding: 2%;
+    font-size: 1.15rem;
+    font-weight: bold;
+}
+
+.temperature {
+    font-size: 1.1rem;
+}
+
+.dis {
+    z-index: -1;
+    opacity: 0;
+}
+
+.inp {
+    position: absolute;
+    left: 25%;
+    text-align: center;
+    width: 50%;
+    border-radius: 15px;
+    margin-top: 4%;
+}
+
+@media screen and (max-width : 450px) {
+    .date-time {
+        display: none;
+    }
+
+}
